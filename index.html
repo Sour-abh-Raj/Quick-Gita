@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <title>Quick Gita</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- <div class="sun">
+        <div class="ray_box">
+          <div class="ray ray1"></div>
+          <div class="ray ray2"></div>
+          <div class="ray ray3"></div>
+          <div class="ray ray4"></div>
+          <div class="ray ray5"></div>
+          <div class="ray ray6"></div>
+          <div class="ray ray7"></div>
+          <div class="ray ray8"></div>
+          <div class="ray ray9"></div>
+          <div class="ray ray10"></div>
+        </div>
+      </div> -->
+      <h1>Quick Gita</h1>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter chapter no. ..."
+          id="chapterNo"
+          value="18"
+        />
+        <input type="checkbox" id="trailingChapters" checked />
+        <label for="trailingChapters">Get trailing chapters?</label>
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+      <div id="gita-chapter-result"></div>
+      <footer>
+        <div class="contact">
+          <span
+            >Have a feature request or want me to make something for you?
+          </span>
+          <a
+            href="mailto:1582003sourabh@gmail.com?subject=From%20Tratus "
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mail"
+            >Contact me</a
+          >
+        </div>
+        <div
+          class="tag"
+          style="
+            max-width: 46px;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+          "
+        >
+          <a
+            href="https://linktr.ee/lucifer9199"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="tag-img"
+              src="./assets/tag_light.svg"
+              alt="tag"
+              style="width: 50px; height: 50px"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script>
+      document
+        .getElementById("submit")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          validateChapterNumber();
+        });
+    </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </body>
+</html>

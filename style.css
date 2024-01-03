@@ -1,0 +1,218 @@
+/* Styles for the heading */
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #ff7f50;
+  font-size: 24px;
+}
+
+/* Styles for the input text field */
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styles for the submit button */
+input[type="submit"] {
+  background-color: #ff7f50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for the checkbox */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Styles for the form element */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 20px;
+  gap: 20px;
+}
+
+/* Styles for the footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, #ff7f50, #ff6347);
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+  background-color: #ff6347;
+}
+
+/* Animation effect for the heading */
+h1 {
+  animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Gradient effect for the footer */
+footer {
+  background: linear-gradient(to right, #ff7f50, #ff6347);
+}
+
+/* Animation effect for the footer */
+footer {
+  animation: fade-in 0.8s ease-in-out;
+}
+
+/* effects */
+/* body {
+  background: #2eb5e5;
+}
+
+.sun {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.9;
+  box-shadow: 0px 0px 40px 15px white;
+}
+
+.ray_box {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 70px;
+  -webkit-animation: ray_anim 120s linear infinite;
+  animation: ray_anim 120s linear infinite;
+}
+.ray {
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: linear-gradient(
+    top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin-left: 10px;
+  border-radius: 80% 80% 0 0;
+  position: absolute;
+  opacity: 0.1;
+}
+
+.ray1 {
+  height: 170px;
+  width: 30px;
+  -webkit-transform: rotate(180deg);
+  top: -175px;
+  left: 15px;
+}
+.ray2 {
+  height: 100px;
+  width: 8px;
+  -webkit-transform: rotate(220deg);
+  top: -90px;
+  left: 75px;
+}
+.ray3 {
+  height: 170px;
+  width: 50px;
+  -webkit-transform: rotate(250deg);
+  top: -80px;
+  left: 100px;
+}
+.ray4 {
+  height: 120px;
+  width: 14px;
+  -webkit-transform: rotate(305deg);
+  top: 30px;
+  left: 100px;
+}
+.ray5 {
+  height: 140px;
+  width: 30px;
+  -webkit-transform: rotate(-15deg);
+  top: 60px;
+  left: 40px;
+}
+.ray6 {
+  height: 90px;
+  width: 50px;
+  -webkit-transform: rotate(30deg);
+  top: 60px;
+  left: -40px;
+}
+.ray7 {
+  height: 180px;
+  width: 10px;
+  -webkit-transform: rotate(70deg);
+  top: -35px;
+  left: -40px;
+}
+.ray8 {
+  height: 120px;
+  width: 30px;
+  -webkit-transform: rotate(100deg);
+  top: -45px;
+  left: -90px;
+}
+.ray9 {
+  height: 80px;
+  width: 10px;
+  -webkit-transform: rotate(120deg);
+  top: -65px;
+  left: -60px;
+}
+.ray10 {
+  height: 190px;
+  width: 23px;
+  -webkit-transform: rotate(150deg);
+  top: -185px;
+  left: -60px;
+}
+
+@-webkit-keyframes ray_anim {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+} */
